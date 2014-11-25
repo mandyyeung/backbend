@@ -1,11 +1,26 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 @import url(http://fonts.googleapis.com/css?family=Raleway:600);
 
-body {
+body, html {
   font-family: 'Open Sans', sans-serif;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* HEADINGS & TEXT */
+
+h1, h3 {
+  margin: 0;
+  position: relative;
+  top: 35%;
+  -webkit-transform: translateY(-35%);
+  -ms-transform: translateY(-35%);
+  transform: translateY(-35);
 }
 
 h1 {
+  margin: 0;
   font-family: 'Raleway', sans-serif;
   font-size: 500%;
 }
@@ -13,3 +28,18 @@ h1 {
 h1 em {
   color: #ccc;
 }
+
+/* HOME */
+
+.home {
+  height: 100%;
+  background: url(../images/backbend_unsplash.jpg) no-repeat center center;
+  background-size: cover;
+  text-align: center;
+}
+
+/* ABOUT */
+/* STACK */
+/* BLOG */
+/* PORTFOLIO */
+/* CONTACT */
