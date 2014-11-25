@@ -10,23 +10,34 @@ body, html {
 
 /* HEADINGS & TEXT */
 
-h1, h3 {
+h1, h2, h3 {
   margin: 0;
   position: relative;
-  top: 35%;
-  -webkit-transform: translateY(-35%);
-  -ms-transform: translateY(-35%);
-  transform: translateY(-35);
+  top: 30%;
+  -webkit-transform: translateY(-30%);
+  -ms-transform: translateY(-30%);
+  transform: translateY(-30);
 }
 
-h1 {
+h1, h2 {
   margin: 0;
   font-family: 'Raleway', sans-serif;
   font-size: 500%;
 }
 
+h3 {
+  color: #ddd;
+}
+
 h1 em {
   color: #ccc;
+}
+
+/* SECTIONS */
+
+.section {
+  height: 500px;
+  text-align: center;
 }
 
 /* HOME */
@@ -39,7 +50,40 @@ h1 em {
 }
 
 /* ABOUT */
+
+.about {
+  background-color: #CFF09E;
+}
+
 /* STACK */
+
+.stack {
+  background-color: #A8DBA8;
+}
+
 /* BLOG */
+
+.blog {
+  background-color: #79BD9A;
+}
+
 /* PORTFOLIO */
+
+.portfolio {
+  background-color: #3B8686;
+}
+
 /* CONTACT */
+
+.contact {
+  background-color: #0B486B;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: #d8d8d8;
+  height: 300px;
+  text-align: center;
+  padding-top: 50px;
+}
