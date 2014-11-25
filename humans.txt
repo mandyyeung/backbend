@@ -1,0 +1,17 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Mandy Yeung -- Developer -- @mandycyeung
+
+# THANKS
+
+    Unsplash
+    Codrops
+    Pixel Buddha
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    Bootstrap, jQuery
