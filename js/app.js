@@ -1,5 +1,5 @@
-$(document).ready(function(){
-  $('#loading-animation').fadeOut();
-  $('#preloader').fadeOut('slow');
-  $('body').delay(500).css({'overflow':'visible'});
-});
+$(window).load(function() {
+  $('#status').delay(300).fadeOut();
+  $('#preloader').delay(300).fadeOut('slow');
+  $('body').delay(550).css({'overflow':'visible'});
+})
