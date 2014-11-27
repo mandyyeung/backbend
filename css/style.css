@@ -34,10 +34,32 @@ h1 em {
   color: #ccc;
 }
 
+/* PRELOADER */
+
+#preloader {
+  position: fixed;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  background-color:#fff;
+  z-index:99;
+}
+
+#loading-animation {
+  width:128px;
+  height:128px;
+  position:absolute;
+  left:50%;
+  top:50%;
+  background: url(../images/preloader.gif) no-repeat center center;
+  margin: -64px 0 0 -64px;
+}
+
 /* NAVBAR */
 
 .navbar-default {
-  background:transparent;
+  background: transparent;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -45,8 +67,7 @@ h1 em {
 }
 
 .navbar-default .navbar-nav > li > a:hover {
-  text-transform: uppercase;
-  color: #ddd;
+  color: #ccc;
 }
 
 /* SECTIONS */
