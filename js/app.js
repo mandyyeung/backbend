@@ -2,16 +2,19 @@ $(window).load(function() {
   $('#status').delay(500).fadeOut();
   $('#preloader').delay(500).fadeOut('slow');
   $('body').delay(850).css({'overflow':'visible'});
+  $('#logo').addClass("hidden");
 });
 
 $(window).scroll(function() {
-  if ($(this).scrollTop() > 50){
+  if ($(this).scrollTop() > 350){
     $('nav').addClass("sticky");
     $('#logo').removeClass("hidden");
+    $('.top').fadeIn(500);
   }
   else{
     $('nav').removeClass("sticky");
     $('#logo').addClass("hidden");
+    $('.top').fadeOut(300);
   }
 });
 
