@@ -1,3 +1,3 @@
-backbend ([demo](http://mandyyeung.github.io/backbend))
+backbend ([not ready](http://mandyyeung.github.io/backbend))
 =====
 single page responsive template - a work in progress!
